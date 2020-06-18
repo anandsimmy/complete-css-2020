@@ -1,0 +1,144 @@
+
+main {
+    padding-top: 48px;
+}
+
+#product-overview {
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.3) 10%, transparent), /* top of background stack, it reads from left to right*/
+    url('images/freedom.jpg') left 10% top 40%/cover no-repeat border-box,
+    #ff1b68 ; /* bottom of background stack, fallback color for background */
+
+    /* background-image: linear-gradient( red, transparent); */
+    /* background-image: radial-gradient(circle at top left, red, transparent); */
+    /* background-image: url('./images/freedom.jpg');
+    background-size: cover;
+    background-position: left 10% top 40%;  /* crop 40% from top and 10% from left */
+    /* background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
+
+    width: 100%;
+    height: 83vh;
+    padding: 5px;
+    position: relative;
+}
+
+#product-overview h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+#plans {
+    margin-bottom: 20px;
+}
+
+.plan-section-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px auto;
+    color: #2ddf5c;
+}
+
+.plan-list {
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    background-color: #9df7ac;
+    padding: 10px 15px;
+    width: 30%;
+    margin: 8px;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.plan:nth-child(2) {
+    background-color: #07a731;
+    color:white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan-annotation {
+    background-color: white;
+    color: #2ddf5c;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 1em auto;
+    width: fit-content;
+}
+
+.plan-title {
+    color: #07a731;
+}
+
+.plan-price {
+    color: grey;
+}
+
+.plan-highlighted .plan-title {
+    color: white;
+}
+
+.plan-highlighted .plan-price {
+    color: black;
+}
+
+.plan > ul {
+    margin: 0.5em auto;
+    padding: 5px;
+    list-style: none;
+}
+
+.plan > ul > li {
+    margin: 8px 0;
+}
+
+#key-features {
+    background-color: #ff1b68;
+    margin-top:80px;
+    padding: 16px;
+}
+
+#key-features .plan-section-title {
+    color:white;
+    margin:32px;
+}
+
+.key-features-list {
+    list-style: none;
+}
+
+.key-features-list-item {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin:30px auto 0; 
+}
+
+.key-features-image {
+    width: 128px;
+    height: 128px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #f8aec6;
+    margin: 0 auto;
+    padding: 20px;
+    /* overflow: hidden; */
+}
+
+.key-features-description {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: top;
+}
+
