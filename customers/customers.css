@@ -15,7 +15,7 @@
   .testimonial__image-container {
     width: 65%;
     max-width: 580px;
-    display: inline-block;
+    display: inline-block; 
     vertical-align: middle;  
   }
   .testimonial__image-container:hover {
