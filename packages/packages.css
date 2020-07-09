@@ -9,12 +9,12 @@
 }
 
 main {
-    padding-top: 48px;
+    padding-top: 3rem;
 }
 
 .package {
     border: 2px solid #0e4f1f;
-    margin: 20px 0;
+    margin: 1.3rem 0;
     width:80%;
     border-left: none;
     color: black;
@@ -26,9 +26,9 @@ main {
 .package .badge {
     top: 0px;
     right: 0px;
-    font-size: 12px;
-    padding: 10px;
-    margin: 20px;
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    margin: 1.3rem;
     color: white;
     background: #ff5454;
     position: absolute;
@@ -70,7 +70,7 @@ main {
     text-decoration: inherit;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .package-title {
@@ -92,8 +92,8 @@ main {
     background-color: white;
     border: 1px solid darkgreen;
     color: #0e4f1f;
-    font-size: 20px;
-    padding: 16px;
-    margin: 8px;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 0.5rem;
 }
 
