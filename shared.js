@@ -17,4 +17,13 @@ modal.addEventListener('click', modalClose)
 function modalClose() {
     backdrop.style.display= ''
     modal.style.display= ''
+    sideNavBar.style.display= ''
 }
+
+const toggleButton= document.querySelector('.toggle-button')
+const sideNavBar= document.querySelector('.mobile-nav')
+
+toggleButton.addEventListener('click', ()=>{
+    sideNavBar.style.display= 'block'
+    backdrop.style.display= 'block'
+})
