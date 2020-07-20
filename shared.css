@@ -195,3 +195,7 @@ body {
 .main-footer-link a:active {
     color: #ccc;
 }
+
+.open {
+    display: block !important;
+}

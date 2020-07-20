@@ -3,27 +3,27 @@ const modal= document.querySelector('.modal')
 const modalCloseButton= modal.querySelector('button')
 const selectPlanButtons= document.querySelectorAll('.plan button')
 
+const toggleButton= document.querySelector('.toggle-button')
+const sideNavBar= document.querySelector('.mobile-nav')
+
 for(let i=0; i<selectPlanButtons.length; i++){
     selectPlanButtons[i].addEventListener('click', ()=>{
-        backdrop.style.display= 'block'
-        modal.style.display= 'block'
+        backdrop.classList.add('open')
+        modal.classList.add('open')
     })
 }
 
 backdrop.addEventListener('click', modalClose)
 
-modal.addEventListener('click', modalClose)
+modalCloseButton.addEventListener('click', modalClose)
 
 function modalClose() {
-    backdrop.style.display= ''
-    modal.style.display= ''
-    sideNavBar.style.display= ''
+    backdrop.classList.remove('open')
+    modal.classList.remove('open')
+    sideNavBar.classList.remove('open')
 }
 
-const toggleButton= document.querySelector('.toggle-button')
-const sideNavBar= document.querySelector('.mobile-nav')
-
 toggleButton.addEventListener('click', ()=>{
-    sideNavBar.style.display= 'block'
-    backdrop.style.display= 'block'
+    sideNavBar.classList.add('open')
+    backdrop.classList.add('open')
 })
