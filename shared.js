@@ -7,7 +7,7 @@ const sideNavBar= document.querySelector('.mobile-nav')
 if(modal){
     modalCloseButton= modal.querySelector('button')
 }
-
+ 
 for(let i=0; i<selectPlanButtons.length; i++){
     selectPlanButtons[i].addEventListener('click', ()=>{
         backdrop.classList.add('open')
