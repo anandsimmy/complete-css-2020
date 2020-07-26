@@ -34,8 +34,8 @@ main {
 
 @media (min-width: 40rem) {
     #product-overview {
-        height: 70vh;
-        background-position: 10% 48%;
+        height: 80vh;
+        background-position: 10% 20%;
     }
     #product-overview h1{
         font-size: 3rem;
