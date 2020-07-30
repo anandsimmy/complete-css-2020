@@ -5,7 +5,7 @@ main {
 
 #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.3) 10%, transparent), /* top of background stack, it reads from left to right*/
-                url('images/freedom.jpg') left 8% top 10%/cover no-repeat border-box,
+                url('images/freedom.jpg') left 21% top 10%/cover no-repeat border-box,
                 #ff1b68 ; /* bottom of background stack, fallback color for background */
 
     /* background-image: linear-gradient( red, transparent); */
@@ -53,27 +53,25 @@ main {
     color: #2ddf5c; 
 }
 
-.plan-list {
-    width:80%;
-    margin:auto;
+/* .plan-list {
+    width:100%;
     text-align: center;
-}
+} */
 
 .plan {
-    display: inline-block;
+    display: block;
     background-color: #9df7ac;
     padding: 0.7rem 1rem;
-    width: 30%;
-    margin: 0.5rem;
+    width: 100%;
+    margin: 0.8rem 0;
     text-align: center;
     border-radius: 0.3rem;
-    vertical-align: middle;
 }
 
 .plan:nth-child(2) {
     background-color: #07a731;
     color:white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 
 .plan-annotation {
