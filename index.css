@@ -136,14 +136,13 @@ main {
 
 .key-features-list {
     list-style: none;
+    padding: 0;
 }
 
 .key-features-list-item {
-    display: inline-block;
-    width: 33%;
+    display: block;
     text-align: center;
-    margin:1.9rem auto 0;
-    vertical-align: top;
+    margin: auto;
 }
 
 .key-features-image {
@@ -162,6 +161,15 @@ main {
     font-weight: bold;
     font-size: 2rem;
     vertical-align: top;
+}
+
+@media (min-width:40rem){
+    .key-features-list-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        margin:1.9rem auto 0;
+    }
 }
 
 .modal {
