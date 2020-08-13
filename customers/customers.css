@@ -13,7 +13,7 @@
   .testimonial__image-container:hover {
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.4);
   }
-
+  
   .testimonial__image {
     width: 100%;
     vertical-align: bottom; /* to remove whitespace at bottom when box-shadow is added  */
