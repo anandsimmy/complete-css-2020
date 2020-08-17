@@ -97,3 +97,23 @@ main {
     margin: 0.5rem;
 }
 
+@media (min-width: 40rem) {
+    main {
+      max-width: 1500px;
+      margin: 3rem auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .package{
+        border-left: 2px solid #0e4f1f;
+    }
+    #free {
+        border-right: 2px solid #0e4f1f;
+    }
+    #free:hover,
+    #free:active {
+        border-right-color: #ff5454;
+    }
+
+}
