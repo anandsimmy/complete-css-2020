@@ -1,9 +1,10 @@
-.testimonial {
+
+  .testimonial {
     font-size: 1.2rem;  /* 1.2*16 ..16px is root-element size(rem) */
   }
-  
+
   .testimonial:first-of-type {
-    margin-top: 6rem;
+    padding-top: 3rem;
   }
   
   .testimonial__image-container {
