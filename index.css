@@ -1,8 +1,4 @@
 
-main {
-    padding-top: 3rem;
-}
-
 #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.3) 10%, transparent), /* top of background stack, it reads from left to right*/
                 url('images/freedom.jpg') left 21% top 10%/cover no-repeat border-box,
@@ -137,6 +133,8 @@ main {
 .key-features-list {
     list-style: none;
     padding: 0;
+    max-width: 75rem;
+    margin: 0 auto;
 }
 
 .key-features-list-item {
@@ -167,7 +165,7 @@ main {
     .key-features-list-item {
         display: inline-block;
         vertical-align: top;
-        width: 30%;
+        width: 32.5%;
         margin:1.9rem auto 0;
     }
 }
