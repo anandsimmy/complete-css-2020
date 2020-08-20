@@ -7,6 +7,11 @@ body {
     margin: 0px;
 }
 
+main {
+    min-height: calc(100vh - 3.3rem - 8rem); /*3rem for header and 8rem for footer (including footer margin-top)*/
+    margin-top: 3.3rem;
+}
+
 .backdrop {
     position: fixed;
     display: none; 
