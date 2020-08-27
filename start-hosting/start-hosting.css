@@ -24,6 +24,21 @@ main {
     margin-top: 1rem;
 }
 
+.signup-form input,
+.signup-form select {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    outline: none;
+    border-color: #2ddf5c;
+    background-color: #d8f3df;
+}
+
 /* .signup-form input[type='checkbox'] {}  //different way of targeting checkbox */
 
 .signup-form input[id*='terms'],
