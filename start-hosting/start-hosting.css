@@ -46,7 +46,7 @@ main {
     display: inline-block;
     width: auto;
 }
-
+ 
 .signup-form input[type='checkbox'] {
     border: 2px solid #ccc;
     background-color: white;
