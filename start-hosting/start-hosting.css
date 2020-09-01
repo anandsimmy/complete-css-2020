@@ -57,7 +57,7 @@ main {
     -moz-appearance: none;
     appearance: none;
 }
- 
+
 .signup-form input[type='checkbox']:checked {
     border-color: #13742d;
     background-color: #2ddf5c;
