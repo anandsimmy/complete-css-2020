@@ -172,6 +172,13 @@ main {
     outline: none;
 }
 
+.button[disabled] {
+    border: rgb(129, 129, 129);
+    background-color: #ccc;
+    color: rgb(129, 129, 129);
+    cursor: not-allowed;
+}
+
 .main-footer {
     background-color: black;
     padding: 2rem;
