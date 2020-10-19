@@ -56,7 +56,7 @@ main {
     left: 0;
     width: 100%;
     background: #2ddf5c;
-    z-index: 1;
+    z-index: 2;
     padding: 0.4rem 0.7rem;
     display: flex;
     align-items: center;
