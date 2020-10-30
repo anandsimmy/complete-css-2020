@@ -9,11 +9,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    display: grid;
+    grid-template-rows: 3.3rem auto fit-content(8rem);
 }
 
 main {
-    min-height: calc(100vh - 3.3rem - 8rem); /*3rem for header and 8rem for footer (including footer margin-top)*/
-    margin-top: 3.3rem;
+    /* min-height: calc(100vh - 3.3rem - 8rem); 3rem for header and 8rem for footer (including footer margin-top) */
+    grid-row: 2 / 3;
 }
 
 .backdrop {
@@ -180,10 +182,13 @@ main {
 }
 
 .main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
-    padding: 2rem;
     margin-top: 3rem;
     width: 100%;
+    grid-row: 3 / 4 ;
 }
 
 .main-footer-links {
@@ -214,11 +219,16 @@ main {
 }
 
 @media (min-width:40rem){
+
     .toggle-button{
       display: none;
     }
     .main-nav {
         display: flex;
+    }
+
+    .main-footer {
+        height: 4rem;
     }
 
     .main-footer-links {
