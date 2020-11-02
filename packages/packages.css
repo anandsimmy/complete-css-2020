@@ -21,18 +21,22 @@ main {
     text-decoration: none;
     position: relative; 
     z-index: 0;
+    overflow: hidden;
 }
 
 .package .badge {
+    position: absolute;
     top: 0px;
     right: 0px;
+    z-index: 10;
+    width: 12rem;
     font-size: 0.8rem;
-    padding: 0.7rem;
-    margin: 1.3rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0;
     color: white;
     background: #ff5454;
-    position: absolute;
-    z-index: 10;
+    transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem);
 }
 
 .package:hover,
