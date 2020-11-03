@@ -8,8 +8,11 @@
   }
   
   .testimonial__image-container {
-    width: 100%;
+    width: 75%;
     max-width: 40rem;
+    margin-left: 4rem;
+    transform: skew(20deg);
+    overflow: hidden;
   }
   .testimonial__image-container:hover {
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.4);
@@ -19,6 +22,7 @@
     width: 100%;
     vertical-align: bottom; /* to remove whitespace at bottom when box-shadow is added  */
     /* display: block; //this can also be used to remove whitespace at bottom when box-shadow is added  */
+    transform: skew(-20deg) scale(1.4);
   }
 
   .testimonial__info {
