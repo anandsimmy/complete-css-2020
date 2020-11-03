@@ -36,7 +36,7 @@ main {
     margin: 0;
     color: white;
     background: #ff5454;
-    transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem);
+    transform: rotate(45deg) translate(3.5rem, -1rem);
 }
 
 .package:hover,

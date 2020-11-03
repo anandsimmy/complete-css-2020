@@ -10,7 +10,7 @@
   .testimonial__image-container {
     width: 75%;
     max-width: 40rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     transform: skew(20deg);
     overflow: hidden;
   }
