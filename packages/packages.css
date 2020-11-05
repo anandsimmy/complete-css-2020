@@ -24,6 +24,10 @@ main {
     overflow: hidden;
 }
 
+.package:hover {
+    animation: move-up 1s ease-out forwards;
+}
+
 .package .badge {
     position: absolute;
     top: 0px;
@@ -123,4 +127,13 @@ main {
         border-right-color: #ff5454;
     }
 
+}
+
+@keyframes move-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-1rem);
+    }
 }
