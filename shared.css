@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,900&display=swap');
 
+:root {
+    --highlight-color: #ff1b68;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -147,7 +151,7 @@ main {
 .main-nav__item--cta > a,
 .mobile-nav__item--cta > a {
     color: white;
-    background-color: #ff1b68;
+    background-color: var(--highlight-color);
     border-radius: 10px;
     padding: 0.5rem 1rem;
 }
@@ -156,7 +160,7 @@ main {
 .main-nav__item--cta > a:active,
 .mobile-nav__item--cta > a:hover,
 .mobile-nav__item--cta > a:active{
-    color: #ff1b68;
+    color: var(--highlight-color);
     background: white;
     border:none;
 }
