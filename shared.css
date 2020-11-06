@@ -11,11 +11,18 @@
 }
 
 body {
-    height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    display: grid;
-    grid-template-rows: 3.3rem auto fit-content(8rem);
+    margin: 0;
+    padding-top: 3.3rem;
+}
+
+@supports (display: grid) {
+    body {
+        display: grid;
+        grid-template-rows: 3.3rem auto fit-content(8rem);
+        height: 100vh;
+        padding-top: 0;
+    }
 }
 
 main {
