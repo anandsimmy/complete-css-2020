@@ -45,11 +45,11 @@ main {
 /* .signup-form input[type='checkbox'] {}  //different way of targeting checkbox */
 
 .signup-form input[id*='terms'],
-.signup-form input[type='checkbox'] + label {
+.signup-form input[type='checkbox']+label {
     display: inline-block;
     width: auto;
 }
- 
+
 .signup-form input[type='checkbox'] {
     border: 2px solid #ccc;
     background-color: white;
@@ -73,7 +73,7 @@ main {
 }
 
 .signup-form :invalid {
-    border-color: red !important; 
+    border-color: red !important;
     background-color: rgb(248, 175, 175) !important;
 }
 
@@ -85,9 +85,11 @@ main {
         row-gap: 1.5rem;
         column-gap: 1rem;
     }
-    .signup-form__checkbox{
+
+    .signup-form__checkbox {
         grid-column: span 2;
     }
+
     .signup-form [id=title] {
         width: 4rem;
     }
